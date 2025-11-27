@@ -1,0 +1,114 @@
+{
+  "info": {
+    "_postman_id": "1fb73c45-f53c-4a5b-bdb3-b7a1b993fc27",
+    "name": "EventSync",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Event",
+      "id": "4247d0fe-729e-4c49-8212-08c81cacede3",
+      "request": {
+        "method": "POST",
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Event 4\",\r\n    \"feedbacks\": []\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/events/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "events",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get All Events",
+      "id": "15c35f9c-2056-477c-b026-5f59e7795307",
+      "request": {
+        "method": "GET",
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/events/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "events",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Feedback",
+      "id": "db5fd9e1-50c1-424f-a85f-df69f4e24960",
+      "request": {
+        "method": "POST",
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"textFeedback\": \"I liked this very much!\",\r\n    \"username\": \"Postman\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/events/1/feedback",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "events",
+            "1",
+            "feedback"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Summary",
+      "id": "05539ff6-2382-4684-b12c-e68ac78c36e5",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/events/1/summary",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "events",
+            "1",
+            "summary"
+          ]
+        }
+      }
+    }
+  ]
+}
