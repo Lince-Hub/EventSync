@@ -1,0 +1,18 @@
+
+.idea/
+.vscode/
+.settings
+.project
+.classpath
+.postman/
+
+*.iml
+.DS_Store
+
+app/target/
+app/.idea/
+
+# The following files are generated/updated by vaadin-maven-plugin
+app/node_modules/
+app/src/main/frontend/generated/
+app/vite.generated.ts
