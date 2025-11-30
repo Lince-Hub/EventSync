@@ -13,7 +13,7 @@ three possible results: positive, neutral, or negative.
 
 Before launching the project, make sure to place **service-account.json** inside:
 
-EventSync/app/src/main/resources
+> EventSync/app/src/main/resources
 
 **Submitted to:** valdas.trakumas@ibm.com  
 **Submitted by:** linas.puplauskas@gmail.com
