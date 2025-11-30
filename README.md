@@ -9,10 +9,14 @@ three possible results: positive, neutral, or negative.
 - Maven
 - (Optional) An IDE such as Intellij IDEA or Eclipse
 
-## IMPORTANT - GOOGLE CLOUD CREDENTIALS SETUP
-Before launching the project make sure to place service-account.json (Sent by Email to ---) inside:
+## IMPORTANT – GOOGLE CLOUD CREDENTIALS SETUP
 
-EventSync\app\src\main\resources
+Before launching the project, make sure to place **service-account.json** inside:
+
+EventSync/app/src/main/resources
+
+**Submitted to:** valdas.trakumas@ibm.com  
+**Submitted by:** linas.puplauskas@gmail.com
 
 After adding the file, open your terminal and execute:
 
